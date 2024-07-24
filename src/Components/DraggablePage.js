@@ -72,7 +72,10 @@ function DragAndDrop() {
                           margin: "0 0 8px 0",
                           backgroundColor: "#fff",
                           border: "1px solid #ddd",
+                                                ...provided.draggableProps.style
+
                         }}
+                        
                       >
                         {item}
                       </div>
@@ -108,6 +111,8 @@ function DragAndDrop() {
                           margin: "0 0 8px 0",
                           backgroundColor: "#fff",
                           border: "1px solid #ddd",
+                                                  ...provided.draggableProps.style
+
                         }}
                       >
                         {item}

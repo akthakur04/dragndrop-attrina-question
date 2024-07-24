@@ -107,6 +107,8 @@ function DynamicDragAndDrop() {
                     padding: 8,
                     width: 200,
                     backgroundColor: "#f0f0f0",
+                    // ...provided.draggableProps.style
+
                   }}
                 >
                   {list.items.map((item, index) => (
